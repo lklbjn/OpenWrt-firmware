@@ -18,3 +18,4 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 
 # Modify hostname[NO EFFECT]
 # sed -i 's/OpenWrt/DZT-Router/g' package/base-files/files/bin/config_generate
+# sed -i "s/DISTRIB_ID='%D'/DISTRIB_ID='CIALLO'/" package/base-files/files/etc/openwrt_release
